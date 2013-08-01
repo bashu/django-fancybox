@@ -1,0 +1,8 @@
+<div class="modal-header">{% block content_title %}{% endblock content_title %}</div>
+
+<div class="modal-body {% block body_class %}{% endblock body_class %}">{% block content %}{% endblock content %}</div>
+
+{% block extra_body_base %}
+  {% block extra_javascript %}{% endblock extra_javascript %}
+  {% block extra_body %}{% endblock extra_body %}
+{% endblock extra_body_base %}
