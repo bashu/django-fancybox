@@ -1,4 +1,4 @@
 include LICENSE
 include README.rst
-recursive-include lightbox/static *
-recursive-include lightbox/templates *
+recursive-include fancybox/static *
+recursive-include fancybox/templates *
