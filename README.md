@@ -47,7 +47,7 @@ Extend base template for ajax requests
 
 Add `rel="fancybox"` to a link, and set the href to a page you want to display
 
-    <a href="{% url 'remote.html' %}" rel="fancybox">Click here</a>
+    <a href="{% url 'remote.html' %}" class="fancybox">Click here</a>
 
 Please see `example` application. This application is used to manually test the functionalities of this package. This also serves as a good example.
 
