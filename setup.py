@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -12,7 +12,7 @@ setup(
     packages=['fancybox'],
     include_package_data=True,
     license='BSD License',
-    description='Put short description here...',
+    description='Simple fancybox modal for Django',
     long_description=README,
     url='http://github.com/bashu/django-fancybox',
     author='Basil Shubin',
