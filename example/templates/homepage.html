@@ -1,0 +1,11 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Example" %}{% endblock %}
+
+{% block content_title %}{% trans "Fancybox example" %}{% endblock %}
+
+{% block content %}
+ <a href="{% url 'remote.html' %}" class="fancybox">{% trans "Click here" %}</a>
+{% endblock %}  
