@@ -45,7 +45,7 @@ Extend base template for ajax requests
 
     {% extends request.is_ajax|yesno:"fancybox/base.html,base.html" %}
 
-Add `rel="fancybox"` to a link, and set the href to a page you want to display
+Add `class="fancybox"` to a link, and set the href to a page you want to display
 
     <a href="{% url 'remote.html' %}" class="fancybox">Click here</a>
 
