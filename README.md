@@ -3,8 +3,9 @@ Django-Fancybox
 
 This is a [Django](https://www.djangoproject.com/) integration of [Fancybox](http://fancyapps.com/fancybox/).
 
-[![Latest Release](https://pypip.in/v/django-fancybox/badge.png)](https://pypi.python.org/pypi/django-fancybox)
-[![Downloads](https://pypip.in/d/django-fancybox/badge.png)](https://pypi.python.org/pypi/django-fancybox)
+[![Latest Version](https://pypip.in/version/django-fancybox/badge.svg)](https://pypi.python.org/pypi/django-fancybox/)
+[![Downloads](https://pypip.in/download/django-fancybox/badge.svg)](https://pypi.python.org/pypi/django-fancybox/)
+[![License](https://pypip.in/license/django-fancybox/badge.svg)](https://pypi.python.org/pypi/django-fancybox/)
 
 ## Installation
 
