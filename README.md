@@ -1,4 +1,4 @@
-Django-Fancybox
+django-fancybox
 ===============
 
 This is a [Django](https://www.djangoproject.com/) integration of [Fancybox](http://fancyapps.com/fancybox/).
