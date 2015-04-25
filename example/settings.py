@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'xe(h@zaursn=)y7w-2_z-)ckr6=$rd27!%&ns2-y_zrzxxq58b'
+SECRET_KEY = 'YOUR_SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -25,6 +25,12 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
+
+TEMPLATE_DIRS = (
+    os.path.join(os.path.dirname(__file__), 'templates'),
+)
+
+# Application definition
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     "django.contrib.auth.context_processors.auth",
@@ -37,32 +43,18 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.contrib.messages.context_processors.messages",
 )
 
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates'),
-)
 
 # Application definition
 
-INSTALLED_APPS = (
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.staticfiles',
-
+PROJECT_APPS = [
     'fancybox',
-)
+]
 
-MIDDLEWARE_CLASSES = (
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-)
+INSTALLED_APPS = [
+    'django.contrib.staticfiles',
+] + PROJECT_APPS
 
-ROOT_URLCONF = 'app.urls'
-
-WSGI_APPLICATION = 'app.wsgi.application'
-
-DEFAULT_FROM_EMAIL = 'no-reply@example.com'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ROOT_URLCONF = 'example.urls'
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
