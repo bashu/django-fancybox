@@ -56,4 +56,4 @@ You need only Django 1.4 or above to run that. It might run on older versions bu
 
 ## License
 
-`django-fancybox` is authored by [Basil Shubin](http://resume.github.io/?bashu) and released under the BSD license.
+`django-fancybox` is written by [Basil Shubin](https://github.com/bashu) and released under the BSD license.
