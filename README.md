@@ -28,7 +28,7 @@ Be sure you have the `django.core.context_processors.request` processor
 ```python
 TEMPLATE_CONTEXT_PROCESSORS = [
 	...
-	"django.core.context_processors.request"
+	"django.core.context_processors.request",
 ]
 ```
 and just include `fancybox` templates
