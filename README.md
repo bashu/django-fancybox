@@ -3,6 +3,8 @@ django-fancybox
 
 This is a [Django](https://www.djangoproject.com/) integration of [Fancybox](http://fancyapps.com/fancybox/).
 
+Authored by [Basil Shubin](https://github.com/bashu)
+
 [![Latest Version](https://img.shields.io/pypi/v/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
 [![Downloads](https://img.shields.io/pypi/dm/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
 [![License](https://img.shields.io/github/license/bashu/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
@@ -56,4 +58,4 @@ You need only Django 1.4 or above to run that. It might run on older versions bu
 
 ## License
 
-`django-fancybox` is written by [Basil Shubin](https://github.com/bashu) and released under the BSD license.
+`django-fancybox` is released under the BSD license.
