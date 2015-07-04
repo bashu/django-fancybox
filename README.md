@@ -10,9 +10,9 @@ Authored by [Basil Shubin](https://github.com/bashu)
 [![License](https://img.shields.io/github/license/bashu/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
 
 ## Installation
-
-    $ pip install django-fancybox
-
+```shell
+pip install django-fancybox
+```
 ### External dependencies
 
 * jQuery - This is not included in the package since it is expected that in most scenarios this would already be available.
@@ -34,22 +34,22 @@ TEMPLATE_CONTEXT_PROCESSORS = [
 ]
 ```
 and just include `fancybox` templates
-```html
+```html+django
 {% include "fancybox/fancybox_css.html" %} {# Before the closing head tag #}
 {% include "fancybox/fancybox_js.html" %} %} {# Before the closing body tag #}
 ```
 When deploying on production server, don't forget to run :
 ```shell
-$ python manage.py collectstatic
+python manage.py collectstatic
 ```    
 ## Usage
 
 Extend base template for ajax requests
-```html
+```html+django
 {% extends request.is_ajax|yesno:"fancybox/base.html,base.html" %}
 ```
 Add `class="fancybox"` to a link, and set the href to a page you want to display
-```html
+```html+django
 <a href="{% url 'remote.html' %}" class="fancybox">Click here</a>
 ```
 Please see `example` application. This application is used to manually test the functionalities of this package. This also serves as a good example.
