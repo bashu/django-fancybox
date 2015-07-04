@@ -36,7 +36,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
 and just include `fancybox` templates
 ```html+django
 {% include "fancybox/fancybox_css.html" %} {# Before the closing head tag #}
-{% include "fancybox/fancybox_js.html" %} %} {# Before the closing body tag #}
+{% include "fancybox/fancybox_js.html" %} {# Before the closing body tag #}
 ```
 When deploying on production server, don't forget to run :
 ```shell
