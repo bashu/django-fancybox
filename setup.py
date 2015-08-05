@@ -18,6 +18,7 @@ setup(
     author='Basil Shubin',
     author_email='basil.shubin@gmail.com',
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
