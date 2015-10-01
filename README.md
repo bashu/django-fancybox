@@ -8,7 +8,6 @@ Authored by [Basil Shubin](https://github.com/bashu)
 [![Latest Version](https://img.shields.io/pypi/v/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
 [![Downloads](https://img.shields.io/pypi/dm/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
 [![License](https://img.shields.io/github/license/bashu/django-fancybox.svg)](https://pypi.python.org/pypi/django-fancybox/)
-[![Code Health](https://landscape.io/github/bashu/django-fancybox/develop/landscape.svg?style=flat)](https://landscape.io/github/bashu/django-fancybox/develop)
 
 ## Installation
 ```shell
