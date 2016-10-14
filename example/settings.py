@@ -51,7 +51,9 @@ PROJECT_APPS = [
 ]
 
 INSTALLED_APPS = [
+    'django.contrib.auth',
     'django.contrib.staticfiles',
+    'django.contrib.contenttypes',
 ] + PROJECT_APPS
 
 ROOT_URLCONF = 'example.urls'
