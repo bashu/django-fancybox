@@ -3,6 +3,8 @@ django-fancybox
 
 This is a Django_ integration of Fancybox_.
 
+Authored by `Basil Shubin <https://github.com/bashu>`_
+
 .. image:: https://img.shields.io/pypi/v/django-fancybox.svg
     :target: https://pypi.python.org/pypi/django-fancybox/
 
