@@ -1,8 +1,6 @@
 django-fancybox
 ===============
 
-This is a Django_ integration of Fancybox_.
-
 .. image:: https://img.shields.io/pypi/v/django-fancybox.svg
     :target: https://pypi.python.org/pypi/django-fancybox/
 
@@ -12,8 +10,12 @@ This is a Django_ integration of Fancybox_.
 .. image:: https://img.shields.io/github/license/bashu/django-fancybox.svg
     :target: https://pypi.python.org/pypi/django-fancybox/
 
+This is a Django_ integration of Fancybox_.
+
 Installation
 ------------
+
+First install the module, preferably in a virtual environment. It can be installed from PyPI:
 
 .. code-block:: shell
 
@@ -82,6 +84,12 @@ Add ``class="fancybox"`` to a link, and set the href to a page you want to displ
 Please see ``example`` application. This application is used to manually test the functionalities of this package. This also serves as a good example.
 
 You need only Django 1.4 or above to run that. It might run on older versions but that is not tested.
+
+Contributing
+------------
+
+If you like this module, forked it, or would like to improve it, please let us know!
+Pull requests are welcome too. :-)
 
 License
 -------
