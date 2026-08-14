@@ -4,7 +4,7 @@ requires = [ "setuptools>=61" ]
 
 [project]
 name = "django-fancybox"
-version = "0.1.7"
+version = "0.1.8"
 description = "Simple fancybox modal for Django"
 license = "BSD-3-Clause"
 authors = [ { name = "Basil Shubin", email = "basil.shubin@gmail.com" } ]
