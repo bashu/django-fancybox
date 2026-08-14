@@ -2,10 +2,17 @@
 
 {% load i18n %}
 
-{% block head_title %}{% trans "Example" %}{% endblock %}
-
-{% block content_title %}{% trans "Fancybox example" %}{% endblock %}
-
+{% block head_title %}
+  {% trans "Example" %}
+{% endblock %}
+{% block content_title %}
+  {% trans "Fancybox example" %}
+{% endblock %}
 {% block content %}
- <a data-fancybox data-type="ajax" href="{% url 'remote.html' %}" class="fancybox">{% trans "Click here" %}</a> or  <a data-fancybox="images" href="http://www.reactiongifs.com/r/mgc.gif" class="fancybox">{% trans "here" %}</a>
-{% endblock %}  
+  <a data-fancybox
+     data-type="ajax"
+     href="{% url 'remote.html' %}"
+     class="fancybox">{% trans "Click here" %}</a> or  <a data-fancybox="images"
+     href="https://www.reactiongifs.com/r/mgc.gif"
+     class="fancybox">{% trans "here" %}</a>
+{% endblock %}

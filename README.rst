@@ -1,14 +1,18 @@
 django-fancybox
 ===============
 
-.. image:: https://img.shields.io/pypi/v/django-fancybox.svg
+
+.. image:: https://badge.fury.io/py/django-fancybox.svg
+    :target: https://badge.fury.io/py/django-fancybox
+
+.. image:: https://img.shields.io/pypi/pyversions/django-fancybox.svg
     :target: https://pypi.python.org/pypi/django-fancybox/
 
-.. image:: https://img.shields.io/pypi/dm/django-fancybox.svg
+.. image:: https://img.shields.io/pypi/djversions/django-fancybox.svg
     :target: https://pypi.python.org/pypi/django-fancybox/
 
-.. image:: https://img.shields.io/github/license/bashu/django-fancybox.svg
-    :target: https://pypi.python.org/pypi/django-fancybox/
+.. image:: https://github.com/bashu/django-fancybox/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/bashu/django-fancybox/actions/workflows/test.yml
 
 This is a Django_ integration of Fancybox_.
 
@@ -20,7 +24,7 @@ First install the module, preferably in a virtual environment. It can be install
 .. code-block:: shell
 
     pip install django-fancybox
-    
+
 External dependencies
 ~~~~~~~~~~~~~~~~~~~~~
 
