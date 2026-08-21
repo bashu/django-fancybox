@@ -40,7 +40,7 @@ urls.homepage = "https://github.com/bashu/django-fancybox/"
 dev = [
   "coverage==7.15.4",
   "django-stubs[compatible-mypy]==6.0.9",
-  "django-upgrade==1.31.1",
+  "django-upgrade==1.32.0",
   "djlint==1.44.2",
   "factory-boy==3.3.3",
   "mypy==2.3.1",
