@@ -53,6 +53,7 @@ dev = [
 
 [tool.setuptools]
 packages.find.include = [ "fancybox*" ]
+packages.find.exclude = [ "fancybox.tests*" ]
 include-package-data = true
 package-data.fancybox = [ "static/**/*", "templates/**/*.html" ]
 dynamic.readme = { file = [ "README.rst", "CHANGES.rst" ], content-type = "text/x-rst" }
