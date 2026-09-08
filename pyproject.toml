@@ -178,6 +178,6 @@ ini_options.addopts = [ "--ds=fancybox.tests.settings", "--reuse-db", "--import-
 
 # ==== Coverage ====
 [tool.coverage]
+run.source = [ "fancybox" ]
 run.omit = [ "*/migrations/*", "*/tests/*" ]
 run.relative_files = true
-run.source = [ "fancybox" ]
