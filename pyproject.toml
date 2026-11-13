@@ -4,7 +4,7 @@ requires = [ "hatch-fancy-pypi-readme>=24.1", "hatchling>=1.27" ]
 
 [project]
 name = "django-fancybox"
-version = "0.1.9"
+version = "0.2.0"
 description = "Simple fancybox modal for Django"
 license = "BSD-3-Clause"
 license-files = [ "LICENSE" ]
