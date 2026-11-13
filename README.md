@@ -2,11 +2,10 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/bashu/django-fancybox/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
-| Name                     |    Stmts |     Miss |    Cover |   Missing |
-|------------------------- | -------: | -------: | -------: | --------: |
-| fancybox/\_\_init\_\_.py |        0 |        0 |     100% |           |
-| fancybox/models.py       |        0 |        0 |     100% |           |
-| **TOTAL**                |    **0** |    **0** | **100%** |           |
+| Name                         |    Stmts |     Miss |    Cover |   Missing |
+|----------------------------- | -------: | -------: | -------: | --------: |
+| src/fancybox/\_\_init\_\_.py |        0 |        0 |     100% |           |
+| **TOTAL**                    |    **0** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
