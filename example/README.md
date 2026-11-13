@@ -1,25 +1,13 @@
 # Example
 
-To run the example application, make sure you have the required
-packages installed.  You can do this using following commands :
+A minimal Django project used to try out `django-fancybox` by hand.
+
+Run it from the repository root with [uv](https://docs.astral.sh/uv/):
 
 ```shell
-mkvirtualenv example
-pip install -r example/requirements.txt
+uv run python -m example.manage runserver
 ```
 
-This assumes you already have ``virtualenv`` and ``virtualenvwrapper``
-installed and configured.
+Then open <http://127.0.0.1:8000/>.
 
-Next, you can setup the django instance using :
-
-```shell
-python example/manage.py migrate
-```
-
-And run it :
-```shell
-python example/manage.py runserver
-```
-
-Good luck!
+The example has no models and needs no database, so there is nothing to migrate.

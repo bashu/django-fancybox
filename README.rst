@@ -77,7 +77,7 @@ Extend base template for ajax requests
 
 .. code-block:: html+django
 
-    {% extends request.is_ajax|yesno:"fancybox/base.html,base.html" %}
+    {% extends request.headers.x_requested_with|yesno:"fancybox/base.html,base.html" %}
 
 Add ``class="fancybox"`` to a link, and set the href to a page you want to display
 
@@ -86,8 +86,6 @@ Add ``class="fancybox"`` to a link, and set the href to a page you want to displ
     <a data-fancybox data-type="ajax" href="{% url 'remote.html' %}" class="fancybox">Click here</a>
 
 Please see ``example`` application. This application is used to manually test the functionalities of this package. This also serves as a good example.
-
-You need only Django 1.4 or above to run that. It might run on older versions but that is not tested.
 
 Contributing
 ------------
